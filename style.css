@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+}
+.menu ul{
+    padding: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #48dbfb;
+    display: block;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    background-color: #fff;
+    color: #48dbfb;
+}
+.menu ul li a::after{
+    content: " ";
+    background-color: black;
+    width: 0;
+    height: 2px;
+    display: block;
+}
+.menu ul li a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+/* ----Time Planner----- */
+.app {
+    background-color: #48dbfb;
+    text-align: center;
+    padding: 72px;
+    padding-bottom: 90px;
+}
+span {
+    position: relative;
+    top: -24px;
+    left: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+.google {
+    background-color: #fff;
+    position: relative;
+    top: 33px;
+    padding: 11px 19px;
+    display: inline-block;
+    color: #d1c8c8;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1;
+    background-image: linear-gradient(90deg,#381538,#1d2021 70%,#c2c7c4);
+}
+i.fa.fa-android {
+    padding-right: 5px;
+}
+.google::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+.google:hover::before{
+    width: 100%;
+    background-image: linear-gradient(90deg,#2a372d,#ff0051,#fff);
+    box-shadow: 3px 4px 4px -2px #564f4f;
+}
+.google:hover{
+    color: #dfe8e2;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: 1s;
+}
+/* ----service---- */
+.pic {
+    text-align: center;
+    padding-top: 45px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+}
+.pic2 {
+    padding: 50px;
+}
+.box{
+    display: inline-block;
+    overflow: hidden;
+}
+img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    transition: .5s;
+}
+.pho1:hover{
+    transform: rotate(360deg) scale(1.3);
+    
+}
+.pho2:hover{
+    transform: rotate(20deg) scale(1.1) ;
+}
+.pho3:hover{
+    transform: rotate(-20deg) scale(1.3);
+}
+.pho4:hover{
+    transform: rotate(-20deg) scale(1.2);
+}
+.pho5:hover{
+    transform: rotate(20deg) scale(1.3);
+}
+.pho6:hover{
+    transform: rotate(360deg) scale(1.3);
+}
+.pho7:hover{
+    transform: rotate(10deg) scale(1.5);
+}
+.pho8:hover{
+    transform: scale(1.5);
+}
+/* -----video----- */
+.video {
+    text-align: center;
+    padding: 61px;
+    padding-bottom: 93px;
+}
+.step1 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    line-height: 50PX;
+    font-size: 26px;
+    position: relative;
+    top: 67px;
+    left: -192px;
+    transform: rotate(-40deg);
+    display: inline-block;
+}
+.step1:hover{
+    transform: rotate(0) scale(1.3);
+    background-color: #48dbfb;
+    color: #000000;
+    transition: .5s;
+}
+.step2 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    line-height: 50PX;
+    font-size: 26px;
+    position: relative;
+    top: 62px;
+    left: -6px;
+    display: inline-block;
+}
+.step2:hover{
+    transform: scale(1.3);
+    background-color: #48dbfb;
+    color: #000000;
+    transition: .5s;
+}
+.step3 {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    line-height: 50PX;
+    font-size: 26px;
+    position: relative;
+    top: 68px;
+    left: 181px;
+    transform: rotate(40deg);
+    display: inline-block;
+}
+.step3:hover{
+    transform: rotate(0) scale(1.3);
+    background-color: #48dbfb;
+    color: #000000;
+    transition: .5s;
+}
+.botoom {
+    background-color: #1c1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 23px;
+}
